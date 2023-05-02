@@ -6,7 +6,8 @@
             console.log('hello world')
             const colors = ['red','yellow','blue']
             setTimeout(function(){
-                Math.floor(Math.random() * colors.lenght)
+               let changeColors = Math.floor(Math.random() * colors.length)
+               document.body.style.backgroundColor = changeColors
             },300)
         </script>
     </body>
